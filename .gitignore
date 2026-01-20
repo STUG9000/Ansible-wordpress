@@ -1,0 +1,45 @@
+# ===== Ansible inventory real (NÃO versionar) =====
+hosts
+hosts.ini
+hosts.yml
+hosts-*.ini
+inventory
+inventory.*
+
+# ===== Chaves SSH / credenciais =====
+*.pem
+*.key
+id_rsa
+id_rsa.pub
+id_ed25519
+id_ed25519.pub
+
+# ===== Arquivos sensíveis =====
+*.env
+.env
+vault.yml
+vault.yaml
+
+# ===== Cache / temporários do Ansible =====
+*.retry
+.ansible/
+ansible.log
+
+# ===== SO / editor =====
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ===== Python (se usar scripts depois) =====
+__pycache__/
+*.pyc
+venv/
+.env/
+
+# ===== Logs =====
+*.log
+
+# Chaves SSH específicas do projeto
+delta1
+delta1.pub
